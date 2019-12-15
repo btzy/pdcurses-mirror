@@ -1,1 +1,1 @@
-nmake -f ../Makefile.vc WIDE=Y UTF8=Y DEBUG=Y
+nmake -f ../Makefile.vc WIDE=Y UTF8=Y DEBUG=Y CFLAGS="/MDd -DWINVER=0x0A00 -D_WIN32_WINNT=0x0A00"
