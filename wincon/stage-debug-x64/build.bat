@@ -1,0 +1,1 @@
+nmake -f ../Makefile.vc WIDE=Y UTF8=Y DEBUG=Y
